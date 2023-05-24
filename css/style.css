@@ -1,0 +1,260 @@
+/* font-family: 'Montserrat', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#home {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(1, 3, 32, 0.7), rgb(0, 8, 29)), url("../netflix.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 20rem;
+    height: auto;
+}
+
+#form {
+    width: 30rem;
+}
+
+#select {
+    padding: 0.5rem 2.4rem;
+    font-size: 1.8rem;
+}
+
+#sign-btn {
+    padding: 0.5rem 2rem;
+    font-size: 1.6rem;
+}
+
+#btn {
+    font-weight: 600;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+}
+
+#btn i.bi {
+    font-size: 5rem;
+}
+
+.heading {
+    margin: 8rem 15rem 0 15rem;
+    line-height: 5rem;
+}
+
+h1.fw-bold {
+    font-size: 7rem;
+}
+
+p.fw-semibold {
+    font-size: 3rem;
+}
+
+p.pera {
+    font-size: 2rem;
+}
+
+input.mail {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #a4b0be;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+    width: 50rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+#w-media img {
+    width: 100%;
+    height: auto;
+}
+
+#w-media h2 {
+    text-align: start;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+#w-media p {
+    text-align: start;
+    font-size: 2rem;
+}
+
+div.content {
+    background: linear-gradient(135deg, rgb(11, 20, 59), rgb(64, 14, 32));
+    margin: 0.5rem;
+    width: 45vw;
+    height: 65rem;
+    color: white;
+    padding: 3rem 5rem 1rem 5rem;
+    border-radius: 0.5rem;
+}
+
+div.top-move {
+    margin-top: -5rem;
+}
+
+#w-media,
+#qa {
+    background: rgb(0, 8, 29);
+}
+
+#qa {
+    color: white;
+}
+
+.ques-ans {
+    height: auto;
+}
+
+#qa h1 {
+    font-weight: 600;
+    padding-top: 14rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+}
+
+#qa p.membership {
+    padding: 3rem 0 0.5rem 0;
+    font-size: 1.8rem;
+}
+
+.page {
+    background-color: #101f4b;
+    font-size: 1.8rem;
+    margin-top: 0.2rem;
+    padding: 3rem;
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+.ques-ans button {
+    width: 100%;
+    height: 8rem;
+    text-align: start;
+    font-size: 2.3rem;
+    font-weight: 500;
+    padding-left: 3rem;
+    background-color: #101f4b;
+    border: none;
+    color: white;
+    letter-spacing: 0.15rem;
+    margin-top: 0.8rem;
+    display: inline;
+}
+
+.ques-ans button:hover {
+    background-color: #223362;
+}
+
+.ques-ans button i.bi {
+    float: right;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+
+.list ul li a {
+    color: rgb(173, 170, 170);
+    line-height: 3.8rem;
+    font-size: 1.8rem;
+}
+
+footer {
+    color: rgb(173, 170, 170);
+    background: rgb(0, 8, 29);
+    height: 90vh;
+}
+
+.foot {
+    padding-top: 14rem;
+}
+
+.foot p {
+    padding-bottom: 3.5rem;
+    font-size: 2rem;
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 58%;
+    }
+
+    .heading {
+        margin: 8rem 10rem 0 10rem;
+        line-height: 8rem;
+    }
+
+    div.content {
+        height: 55rem;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 55%;
+    }
+
+    .heading {
+        margin: 8rem 8rem 0 8rem;
+        line-height: 5rem;
+    }
+
+    div.top-move {
+        margin-top: 0rem;
+    }
+
+    div.content {
+        height: 50rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+
+    .heading {
+        margin: 8rem 5rem 0 5rem;
+        line-height: 3rem;
+    }
+
+    #home {
+        height: 100vh;
+    }
+
+    div.content {
+        width: 90%;
+        height: 60rem;
+        /* font-size: 1rem; */
+    }
+}
